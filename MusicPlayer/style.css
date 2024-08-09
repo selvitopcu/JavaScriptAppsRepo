@@ -1,0 +1,35 @@
+body {
+    background-color: #131516;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    width: 400px;
+}
+
+#progress .times,
+.card-footer,
+.volume-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.volume-container i {
+    margin-right: 5px;
+}
+
+li.playing{
+    background-color: #0b5eb7;
+    color:#fff;
+}
+
+.card {
+    border: none; 
+    border-radius: 7px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
