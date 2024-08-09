@@ -1,0 +1,57 @@
+body {
+    background-color: #000;
+    color: #fff; 
+    font-family: Arial, sans-serif;
+}
+
+.card {
+    border: none;
+    border-radius: 25px;
+    overflow: hidden;
+    background-color: #333;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2)
+}
+
+.card-header {
+    background-color: #4a0303;
+    color: #bababa; 
+    border-bottom: 1px solid #2c0303;
+}
+
+.card-body {
+    padding: 2rem;
+}
+
+.form-group label {
+    color: #ccc; 
+}
+
+.form-control-lg {
+    padding: 1.5rem;
+    font-size: 1.1rem;
+    background-color: #555; 
+    color: #fff; 
+    border: 1px solid #666; 
+}
+
+.form-control-lg::placeholder {
+    color: #888;
+}
+
+.btn-primary {
+    margin-top: 2px;
+    background-color: #4a0303; 
+    border: none;
+    padding: 0.75rem 1.25rem;
+    font-size: 1.1rem;
+    border-radius: 5px;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.btn-primary:hover {
+    background-color: #4a0303; 
+}
+
+.btn-primary:active {
+    transform: scale(0.98); 
+}
