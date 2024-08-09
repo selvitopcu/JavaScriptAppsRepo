@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: #121212; 
+    color: #e0e0e0; 
+}
+
+.container {
+    width: 700px;
+    background: #1e1e1e; 
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+.box {
+    border-radius: 5px;
+    border: 1px solid #444; 
+    background: #2c2c2c; 
+}
+
+.controls, .controls li, .icons, .icons i {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.controls {
+    padding: 12px 15px;
+}
+
+.controls .icons i {
+    width: 40px;
+    color: #e0e0e0; 
+    font-size: 16px;
+    cursor: pointer;
+    justify-content: center;
+}
+
+.controls .icons {
+    width: 35%;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.text-controls textarea {
+    height: 250px;
+    width: 100%;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    border-radius: 5px;
+    background: #333;
+    color: #e0e0e0; 
+    padding: 10px 15px;
+    resize: none;
+}
+
+.text-controls .to-text {
+    border-left: 1px solid #444; 
+    border-radius: 0;
+}
+
+.box .text-controls {
+    display: flex;
+    border-top: 1px solid #444; 
+}
+
+button {
+    background-color: #555555;
+    border: 2px solid #444; 
+    color: #e0e0e0;
+    padding: 10px 20px;
+    width: 100%;
+    margin-top: 5px;
+    font-size: 16px;
+    transition-duration: .4s;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #444;
+    color: #e0e0e0;
+    border: 2px solid #333;
+}
+
+
+select {
+    appearance: none; 
+    background: #333;
+    color: #e0e0e0;
+    border: 1px solid #444;     
+    border-radius: 5px;
+    padding: 10px 15px;
+    width: 100%; 
+    font-size: 16px;
+    line-height: 1.5;
+    outline: none;
+    cursor: pointer;
+    transition: background 0.3s, border-color 0.3s;
+}
+
+select:hover,
+select:focus {
+    background: #444;
+    border-color: #555; 
+}
+
+select::-ms-expand {
+    display: none;
+}
+
+.select-wrapper {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+}
+
+.select-wrapper::after {
+    content: '\f078';
+    font-family: 'Font Awesome 5 Free'; 
+    font-weight: 900;
+    font-size: 16px;
+    color: #e0e0e0;
+    position: absolute;
+    right: 10px; 
+    top: 50%;
+    transform: translateY(-50%);
+    pointer-events: none;
+}
+
+select {
+    padding-right: 40px;
+}
